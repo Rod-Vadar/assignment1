@@ -1,3 +1,14 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
-
+.image-container {
+    position: relative;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    bottom: 0;
+    
+    
+    color: white;
+    padding: 5px 20px;
+  }
