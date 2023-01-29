@@ -17,27 +17,22 @@
 
 
 <body>
-  <!-- header -->
+  <!-- nav  double header uses single header wrapper below nav to enable fixed header-->
 
-  <nav class="py-2 border-bottom navbar navbar-expand-md navbar-light bg-light sticky-top">
+  <nav class="py-2 border-bottom navbar navbar-expand-md navbar-light bg-light sticky-top" aria-label="primary-navigation">
     <div class="container d-flex flex-wrap">
       <!-- Burger Toggle Button -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler1"
         aria-controls="navbarToggler1" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
-
       <div class="collapse navbar-collapse" id="navbarToggler1">
-
-
         <ul class="nav me-auto bg-danger">
           <li class="nav-item"><a href="index.html" class="nav-link link-dark px-2 active text-white"
               aria-current="page">Home</a></li>
           <li class="nav-item"><a href="#features" class="nav-link link-dark px-2 text-white">Features</a></li>
           <li class="nav-item"><a href="#pricing" class="nav-link link-dark px-2 text-white">Pricing</a></li>
-          <li class="nav-item"><a href="#faqs" class="nav-link link-dark px-2 text-white">FAQs</a></li>
-
+          <li class="nav-item"><a href="#discover" class="nav-link link-dark px-2 text-white">Discover</a></li>
         </ul>
         <ul class="nav">
           <li class="nav-item"><a href="#" class="nav-link link-dark px-2">
@@ -50,6 +45,10 @@
       </div>
     </div>
   </nav>
+  <!-- end of nav -->
+
+  <!-- header -->
+
   <header class="py-3 mb-4 border-bottom">
     <div class="container d-flex flex-wrap justify-content-center">
       <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
@@ -61,43 +60,44 @@
 
     </div>
   </header>
+  <!-- end of header -->
 
 
-<!-- hero -->
-
-  <section id="hero">
-    <div class="text-center">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-4 img-center d-none d-md-block">
-            <img class="img-fluid" src="/assets/images/hero-medium-scale3.png" alt="girl with lipstick"
-              style="height: 400px; width: 100%; object-fit:cover; object-position: 100% 0%">
-          </div>
-          <div class="col-10 col-md-4 img-center">
-            <img class="img-fluid" src="/assets/images/hero-medium-scale5.png" alt="girl with lipstick"
-              style="height: 400px; width: 100%; object-fit:cover; object-position: 100% 0%">
-          </div>
-          <div class="col-md-4 img-center d-none d-md-block">
-            <img class="img-fluid" src="/assets/images/hero-medium-scale9.png" alt="girl with lipstick"
-              style="height: 400px; width: 100%; object-fit:cover; object-position: 100% 0%">
-          </div>
-          <h2 class="display-5 text-danger">Find Your Perfect Match with Desire</h2>
-          <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">Discover like-minded individuals who share your desires</p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <a href="register.html" class="btn btn-danger btn-lg">Start Your Love Story</a>
-              <!-- <button type="button" class="btn btn-danger btn-lg px-4 gap-3">Start Your Love Story</button> -->
+  <!-- hero -->
+  <main>
+    <article id="hero">
+      <div class="text-center">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-4 img-center d-none d-md-block">
+              <img class="img-fluid" src="/assets/images/hero-medium-scale3.png" alt="girl with lipstick"
+                style="height: 400px; width: 100%; object-fit:cover; object-position: 100% 0%">
+            </div>
+            <div class="col-10 col-md-4 img-center">
+              <img class="img-fluid" src="/assets/images/hero-medium-scale5.png" alt="girl with lipstick"
+                style="height: 400px; width: 100%; object-fit:cover; object-position: 100% 0%">
+            </div>
+            <div class="col-md-4 img-center d-none d-md-block">
+              <img class="img-fluid" src="/assets/images/hero-medium-scale9.png" alt="girl with lipstick"
+                style="height: 400px; width: 100%; object-fit:cover; object-position: 100% 0%">
+            </div>
+            <h2 class="display-5 text-danger">Find Your Perfect Match with Desire</h2>
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">Discover like-minded individuals who share your desires</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <a href="register.html" class="btn btn-danger btn-lg">Start Your Love Story</a>
+                <!-- <button type="button" class="btn btn-danger btn-lg px-4 gap-3">Start Your Love Story</button> -->
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </article>
 
-  <!-- End of Hero -->
+    <!-- End of Hero -->
 
-  <!-- Carousel slide DO NOT REMOVE THIS CODE-->
-  <!-- <div class="container py-2" id="carousel">
+    <!-- Carousel slide DO NOT REMOVE THIS CODE-->
+    <!-- <div class="container py-2" id="carousel">
     <div class="row align-items-center text-center justify-content-center">
       <div class="col"></div>
       <div class="col-6">
@@ -134,273 +134,291 @@
             </div>
           </div>
         </div> -->
-        <!-- end of Carousel -->
-      
-      <!-- </div>
+    <!-- end of Carousel -->
+
+    <!-- </div>
       <div class="col"></div>
     </div>
   </div> -->
 
-  <!-- end of Slide -->
+    <!-- end of Slide -->
 
 
-  <div class="py-0 bg-light my-4 mb-4 border-bottom"></div>
+    <div class="py-0 bg-light my-4 mb-4 border-bottom"></div>
 
-  <!-- features -->
+    <!-- features -->
 
-  <section id="features">
+    <article id="features">
 
-    <div class="text-center">
-      <div class="container">
-        <h3 class="display-4 text-danger">Unleash the power of Desire with our AI dating agency</h3>
-        <p class="lead mb-4 d-none d-md-block">Our cutting-edge AI technology matches you with compatible partners based
-          on your unique
-          desires and preferences</p>
-        <div class="row align-items-center justify-content-center">
-          <div class="col-md-6">
-            <img class="img-fluid" src="/assets/images/charliecropped.png" alt="girl-walking-coffee"
-              style="height: 800px; width: 75%; object-fit:cover; object-position: 100% 0%">
-          </div>
-          <div class="col-md-6">
-            <!-- <h3 class="display-5 d-none d-md-block">Say goodbye to random swiping</h3> -->
-            <h3 class="display-5 d-none d-md-block ">Hello to true connection . . .</h3>
-            <!-- <p class="lead mb-4">Our AI algorithms analyze your selections, preferences and interactions to find your
+      <div class="text-center">
+        <div class="container">
+          <h3 class="display-4 text-danger">Unleash the power of Desire with our AI dating agency</h3>
+          <p class="lead mb-4 d-none d-md-block">Our cutting-edge AI technology matches you with compatible partners
+            based
+            on your unique
+            desires and preferences</p>
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-6">
+              <img class="img-fluid" src="/assets/images/charliecropped.png" alt="girl-walking-coffee"
+                style="height: 800px; width: 75%; object-fit:cover; object-position: 100% 0%">
+            </div>
+            <div class="col-md-6">
+              <!-- <h3 class="display-5 d-none d-md-block">Say goodbye to random swiping</h3> -->
+              <h3 class="display-5 d-none d-md-block ">Hello to true connection . . .</h3>
+              <!-- <p class="lead mb-4">Our AI algorithms analyze your selections, preferences and interactions to find your
               perfect match</p> -->
-            <p class="lead mb-4 d-none d-md-block">Access to a curated selection of compatible partners</p>
-            <p class="lead mb-4 d-none d-md-block">24/7 customer support to assist you in your journey to love</p>
-            <a href="register.html" class="btn btn-danger btn-lg">Start Your Love Story</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end of features -->
-
-  <div class="py-0 bg-light my-4 mb-4 border-bottom"></div>
-
-  <!-- Pricing -->
-  <section id="pricing">
-    <div class="container">
-      <h2 class="display-5 text-danger text-center">Unlock the full potential of Desire with our pricing options</h2>
-
-      <div class="row align-items-center justify-content-center">
-        <div class="col-md-10 ">
-          <div class="image-container ">
-            <img src="/assets/images/love4.jpg" alt="couple-kiss-on-car" class="img-fluid">
-            <div class="overlay-text">
-              <h2 class="display-6 d-none d-md-block">Start your love story with Desire . . .</h2>
-              <h3 class="lead d-md-none">Start your love story with Desire . . .</h3>
-
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-        <!-- start of code for pricing on mobile device -->
-
-        <div class="col d-md-none">
-          <div class="card mb-4 rounded-3 shadow-sm">
-
-            <div class="card-body">
-              <table class="table table-striped">
-                <thead>
-                  <tr>
-                    <th scope="col">Plan</th>
-                    <th scope="col">Price</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">Yearly</th>
-                    <td class="text-danger">$10<small class="text-danger fw-light">/mo</small></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Three months</th>
-                    <td class="text-danger">$15<small class="text-danger fw-light">/mo</small></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Monthly</th>
-                    <td class="text-danger">$20<small class="text-danger fw-light">/mo</small></td>
-                  </tr>
-                </tbody>
-              </table>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>Experience the magic of Desire</li>
-                <li>Full access to our AI-powered matching</li>
-                <li>Phone or email support</li>
-
-              </ul>
-              <a href="register.html" class="btn btn-danger btn-lg">Start Your Love Story</a>
-            </div>
-          </div>
-        </div>
-
-
-        <!-- end of code for pricing on mobile device -->
-
-
-        <!-- line below removes from mobile d-none -->
-        <div class="col d-none d-md-block">
-          <div class="card mb-4 rounded-3 shadow-sm">
-            <div class="card-header py-3">
-              <h4 class="my-0 fw-normal">Monthly</h4>
-            </div>
-            <div class="card-body">
-              <h2 class="card-title pricing-card-title text-danger">$20<small class="text-danger fw-light">/mo</small>
-              </h2>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>Experience the magic of Desire for a month</li>
-                <li>Full access to our AI-powered matching</li>
-                <li>Phone or email support</li>
-
-              </ul>
-              <a href="register.html" class="btn btn-danger btn-lg">Start Your Love Story</a>
-            </div>
-          </div>
-        </div>
-        <!-- line below removes from mobile d-none -->
-        <div class="col d-none d-md-block">
-          <div class="card mb-4 rounded-3 shadow-sm">
-            <div class="card-header py-3">
-              <h4 class="my-0 fw-normal">Three months</h4>
-            </div>
-            <div class="card-body">
-              <h2 class="card-title pricing-card-title text-danger">$15<small class="text-danger fw-light">/mo</small>
-              </h2>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>Get a great deal with our 3-month package</li>
-                <li>Full access to our AI-powered matching</li>
-                <li>Phone or email support</li>
-
-              </ul>
-              <a href="register.html" class="btn btn-danger btn-lg">Start Your Love Story</a>
-            </div>
-          </div>
-        </div>
-        <!-- line below removes from mobile d-none -->
-        <div class="col d-none d-md-block">
-          <div class="card mb-4 rounded-3 shadow-sm">
-            <div class="card-header py-3">
-              <h4 class="my-0 fw-normal">Yearly</h4>
-            </div>
-            <div class="card-body">
-              <h2 class="card-title pricing-card-title text-danger">$10<small class="text-danger fw-light">/mo</small>
-              </h2>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>Get the best value with our annual package</li>
-                <li>Full access to our AI-powered matching</li>
-                <li>Phone or email support</li>
-
-              </ul>
+              <p class="lead mb-4 d-none d-md-block">Access to a curated selection of compatible partners</p>
+              <p class="lead mb-4 d-none d-md-block">24/7 customer support to assist you in your journey to love</p>
               <a href="register.html" class="btn btn-danger btn-lg">Start Your Love Story</a>
             </div>
           </div>
         </div>
       </div>
+    </article>
 
-    </div>
+    <!-- end of features -->
 
-  </section>
+    <div class="py-0 bg-light my-4 mb-4 border-bottom"></div>
 
-  <!-- end of pricing -->
+    <!-- Pricing -->
+    <section id="pricing">
+      <div class="container">
+        <h2 class="display-5 text-danger text-center">Unlock the full potential of Desire with our pricing options</h2>
 
-  <div class="py-0 bg-light my-4 mb-4 border-bottom"></div>
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-10 ">
+            <div class="image-container ">
+              <img src="/assets/images/love4.jpg" alt="couple-kiss-on-car" class="img-fluid">
+              <div class="overlay-text">
+                <h2 class="display-6 d-none d-md-block">Start your love story with Desire . . .</h2>
+                <h3 class="lead d-md-none">Start your love story with Desire . . .</h3>
 
-  <!-- FAQ section -->
-  <section id="faqs">
-    <div class="container">
-      <h2 class="display-5 text-danger text-center">Discover More . . .</h2>
-
-      <div class="row  justify-content-center text-center">
-        <div class="col-md-6">
-          <img class="img-fluid" src="/assets/images/love7.jpg" alt="couple-sitting"
-            style="height: 700px; width: 100%; object-fit:cover; object-position: 80% 85%">
-        </div>
-
-        <div class="col-md-6">
-          <!--  accordion -->
-          <div class="accordion" id="accordionExample">
-            <!-- accordionPanel-1 -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                  <span class="display-6 text-danger">Are you inclusive?</span>
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>Absolutely.</strong>
-                  <h5 class="text-muted">Absolutely! We are an inclusive platform for everyone 18+.</h5>
-                </div>
-              </div>
-            </div>
-            <!-- accordionPanel-2 -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  <span class="display-6 text-danger">Do I have to pay to use Desire?</span>
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>Membership.</strong>
-                  <h5 class="text-muted">Yes, Desire is a premium service and we offer a choice of membership options.
-                  </h5>
-
-                </div>
-              </div>
-            </div>
-            <!-- accordionPanel-3 -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  <span class="display-6 text-danger">How does it work?</span>
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>Cutting edge.</strong>
-                  <h5 class="text-muted">Our platform utilizes cutting-edge technology to deliver personalized
-                    experiences. We're constantly working to improve and enhance the user experience.</h5>
-
-                </div>
-              </div>
-            </div>
-            <!-- accordionPanel-4 -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  <span class="display-6 text-danger">Can I post adult images?</span>
-                </button>
-              </h2>
-              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>Adult Material.</strong>
-                  <h5 class="text-muted">No, Our current policy is that we do not allow adult material.
-                  </h5>
-
-                </div>
               </div>
             </div>
           </div>
-          <!-- end  accordion -->
+        </div>
 
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <!-- start of code for pricing on mobile device -->
+
+          <div class="col d-md-none">
+            <div class="card mb-4 rounded-3 shadow-sm">
+
+              <div class="card-body">
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col">Plan</th>
+                      <th scope="col">Price</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Yearly</th>
+                      <td class="text-danger">$10<small class="text-danger fw-light">/mo</small></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Three months</th>
+                      <td class="text-danger">$15<small class="text-danger fw-light">/mo</small></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Monthly</th>
+                      <td class="text-danger">$20<small class="text-danger fw-light">/mo</small></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Experience the magic of Desire</li>
+                  <li>Full access to our AI-powered matching</li>
+                  <li>Phone or email support</li>
+
+                </ul>
+                <a href="register.html" class="btn btn-danger btn-lg">Start Your Love Story</a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- end of code for pricing on mobile device -->
+
+
+          <!-- line below removes from mobile d-none to show on a desktop -->
+          <div class="col d-none d-md-block">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Monthly</h4>
+              </div>
+              <div class="card-body">
+                <h2 class="card-title pricing-card-title text-danger">$20<small class="text-danger fw-light">/mo</small>
+                </h2>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Experience the magic of Desire for a month</li>
+                  <li>Full access to our AI-powered matching</li>
+                  <li>Phone or email support</li>
+
+                </ul>
+                <a href="register.html" class="btn btn-danger btn-lg">Start Your Love Story</a>
+              </div>
+            </div>
+          </div>
+          <!-- line below removes from mobile d-none -->
+          <div class="col d-none d-md-block">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Three months</h4>
+              </div>
+              <div class="card-body">
+                <h2 class="card-title pricing-card-title text-danger">$15<small class="text-danger fw-light">/mo</small>
+                </h2>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Get a great deal with our 3-month package</li>
+                  <li>Full access to our AI-powered matching</li>
+                  <li>Phone or email support</li>
+
+                </ul>
+                <a href="register.html" class="btn btn-danger btn-lg">Start Your Love Story</a>
+              </div>
+            </div>
+          </div>
+          <!-- line below removes from mobile d-none -->
+          <div class="col d-none d-md-block">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Yearly</h4>
+              </div>
+              <div class="card-body">
+                <h2 class="card-title pricing-card-title text-danger">$10<small class="text-danger fw-light">/mo</small>
+                </h2>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Get the best value with our annual package</li>
+                  <li>Full access to our AI-powered matching</li>
+                  <li>Phone or email support</li>
+
+                </ul>
+                <a href="register.html" class="btn btn-danger btn-lg">Start Your Love Story</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- end of pricing -->
+
+    <div class="py-0 bg-light my-4 mb-4 border-bottom"></div>
+
+    <!-- Discover section -->
+    <section id="discover">
+      <div class="container">
+        <h2 class="display-5 text-danger text-center">Discover More . . .</h2>
+
+        <div class="row  justify-content-center text-center">
+          <div class="col-md-6">
+            <img class="img-fluid" src="/assets/images/love7.jpg" alt="couple-sitting"
+              style="height: 700px; width: 100%; object-fit:cover; object-position: 80% 85%">
+          </div>
+
+          <div class="col-md-6">
+            <!--  accordion -->
+            <div class="accordion" id="accordionExample">
+              <!-- accordionPanel-1 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <span class="display-6 text-danger">Are you inclusive?</span>
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Absolutely</strong>
+                    <h5 class="text-muted">Absolutely! We are an inclusive platform for everyone 18+.</h5>
+                  </div>
+                </div>
+              </div>
+              <!-- accordionPanel-2 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <span class="display-6 text-danger">Do I have to pay to use Desire?</span>
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Membership</strong>
+                    <h5 class="text-muted">Yes, Desire is a premium service and we offer a choice of membership options.
+                    </h5>
+
+                  </div>
+                </div>
+              </div>
+              <!-- accordionPanel-3 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <span class="display-6 text-danger">How does it work?</span>
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Artificial Intelligence</strong>
+                    <h5 class="text-muted">Our platform utilizes cutting-edge technology to deliver personalized
+                      experiences. We're constantly working to improve and enhance the user experience.</h5>
+
+                  </div>
+                </div>
+              </div>
+              <!-- accordionPanel-4 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <span class="display-6 text-danger">Can I post adult images?</span>
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Adult Material</strong>
+                    <h5 class="text-muted">No, Our current policy is that we do not allow adult material.
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <!-- accordionPanel 5 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    <span class="display-6 text-danger">How do I block someone?</span>
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>User control</strong>
+                    <h5 class="text-muted">Our platform allows you to block someone easily by selecting the block
+                      option.</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end  accordion -->
+
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
-  <!-- end of faqs -->
+  <!-- end of Discover -->
 
   <div class="py-0 bg-light my-4 mb-4 border-bottom"></div>
 
@@ -417,7 +435,7 @@
             <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
             <li class="nav-item mb-2"><a href="#features" class="nav-link p-0 text-muted">Features</a></li>
             <li class="nav-item mb-2"><a href="#pricing" class="nav-link p-0 text-muted">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#faqs" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#discover" class="nav-link p-0 text-muted">Discover</a></li>
 
           </ul>
         </div>
@@ -445,7 +463,7 @@
             <div class="d-flex flex-column flex-sm-row w-100 gap-2">
               <label for="newsletter1" class="visually-hidden">Email address</label>
               <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-              <button class="btn btn-primary" type="button">Subscribe</button>
+              <button class="btn btn-danger" type="button">Subscribe</button>
             </div>
           </form>
         </div>
