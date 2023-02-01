@@ -2,6 +2,8 @@
 
 ![Alt text](wireframe-ref-images/desire-header.PNG)
 
+# Introduction
+
 This is a concept website for online dating using AI.  The concept is to have an unbiased experience by matching users using machine learning.
 
 In traditional online dating, users generally specify a range of criteria they are looking for such as age, location, gender, interests and so on.  They are then presented with random profiles which fall within their selection scope.
@@ -24,8 +26,9 @@ I have deliberately chosen a simple minimal style as I believe this conveys the 
 
 Here is the link to the live site.  https://rod-vadar.github.io/assignment1/index.html
 
-Color Space
-The color space is based on a minimalist color space which suits the design of looking like the cover of a stylish magazine.  It is comprised of red #DC3545, white #FFFFFF, black #000000 and gray shades.
+### **Color Space**
+The color space is based on a minimalist color space which suits the design of looking like the cover of a stylish magazine. I prefer to understate text intensity and keep it balanced with the images.
+I chose the colors of red #DC3545, white #FFFFFF, black #000000 and gray shades.
 
 ![Alt text](wireframe-ref-images/Desire%20Color%20Space.png)
 
@@ -35,7 +38,7 @@ Color contrast ratio
 Font style
 I did some experiments using Lato and Roboto from google fonts.  I ended up removing these as I actually prefer the bootstrap font style.
 
-User Experience
+### **User Experience**
 
 Primary purpose
 The primary purpose of the landing page is to seduce the user to sign up for a premium account.
@@ -48,22 +51,22 @@ For the regular user who is already a member of the site, the user is immediatel
 
 Creation process
 
-Strategy
+### **Strategy**
 I designed the website to be immediately understood by the user.
 It is accessible by mobile and desktop browsers.
 The website is simple and easy to navigate as it is displayed as a single page, with the exception of the signup / login page.
 The pricing is clear and unambiguous.
 
-Scope
+### **Scope**
 The website is accessible to users aged 18+ up.
 I used the benefits of bootstrap to provide the perfect experience for all users and devices.
 
-Structural
+### **Structural**
 The navigation links are fixed to the top of the screen on desktop.  On mobile they are accessible from the burger menu.
 The buttons maintain their purpose consistently throughout the site and are easily accessible.
 The footer is clear and links to social media pages.
 
-Skeleton
+### **Skeleton**
 Essentially a single page application.
 Links scroll to the selected section of the page.
 
@@ -80,15 +83,34 @@ The final section is the footer which contains external links to common social m
 
 The only other page is the actual sign up page.  This contains an image and a sign up form.
 
-Wireframe
+### **Wireframe**
 For the wireframe I simply used pen and paper to sketch a rough outline.  I find this is sufficient as I also use this approach for other design such as 2d and 3d graphics and cgi.
 
-Images
-I downloaded all images from the website www.pexels.com.  These are free and royalty free. I spent many hours searching thousands of images to choose the correct ones.  I chose images which I feel are pleasing to the user and really help to sell the website and get people to sign up.
+### **Images**
+I downloaded all images from the website www.pexels.com.  These are royalty free. I spent many hours searching thousands of images to choose the correct ones.  I chose images which I feel are pleasing to the user and really help to sell the website and get people to sign up.
 
 ### **Typography**
 I am very happy with the style of the typography which comes with bootstrap.  I feel it works and is stylish.  I also like the lower intensity of some of the text paragraphs.  I want intensity ripples throughout as I feel this is a little like musicial sections which wax and wane in tempo and feel.
 
+# Mobile Design
+
+I designed the whole website in small modules and I use bootstrap 'container-row-column' states to control responsive layout.
+
+This allows me to finely control the display or removal of modular features depending on the device.
+For example I am able to write two different text states.
+If the user is on a mobile device the mobile state will show but not the desktop state.
+The reverse is also true.
+
+By adopting this approach I am able to keep css to a minimum.
+
+# Code Validation
+
+I used https://validator.w3.org/ to validate all code and css.
+html validation
+![Alt text](code-validate.PNG)
+
+css validation
+![Alt text](css-validate.PNG)
 
 
 
