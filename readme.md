@@ -112,6 +112,25 @@ html validation
 css validation
 ![Alt text](css-validate.PNG)
 
+# Bugs
+
+On the mobile device the burger menu displays too large.  I am unsure how to resolve this and I am continuing to seek a solution.
+
+# Future Implementation
+
+I would like to actually implement this as a working website.  The steps involved in this would require more pages for user profiles, the ability to upload image files and user data.  I would probably use google firebase o0r similar for such an application.
+
+I would also have to run AI services in the background to process user images and data.
+
+I do feel that this is feasible and achieveable.
+
+If this website was built it would require a considerable amount of investment for a massive advertising blitz campaign.
+
+It would need to attract an enormous amount of of users very rapidly to ensure that there are enough users for the service to be of use and interest to singles.
+
+Firebase would be suitable for this as it can spin up new servers very quickly and handle large amount of simultaneous requests.
+
+
 
 
 
