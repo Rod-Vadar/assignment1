@@ -103,6 +103,10 @@ The reverse is also true.
 
 By adopting this approach I am able to keep css to a minimum.
 
+# Site Map
+
+![Alt text](wireframe-ref-images/sitemap.png)
+
 # Code Validation
 
 I used https://validator.w3.org/ to validate all code and css.
@@ -116,19 +120,46 @@ css validation
 
 On the mobile device the burger menu displays too large.  I am unsure how to resolve this and I am continuing to seek a solution.
 
+![Alt text](bug.PNG)
+
+# Performance
+
+I used lighthouse and tinypng.com to optimize performance of image compression.
+
+![Alt text](lighthouse.PNG)
+
+# Page Deployment
+
+![Alt text](wireframe-ref-images/deployment.PNG)
+
+# Page Highlights
+
+## Logo and Headline
+
+![Alt text](wireframe-ref-images/logo-headline.PNG)
+
+## Tagline and call to action buttons
+
+![Alt text](wireframe-ref-images/tagline-call-to-action.PNG)
+
+## Call to action reinforcement
+
+![Alt text](wireframe-ref-images/reinforcement.PNG)
+
+
 # Future Implementation
 
-I would like to actually implement this as a working website.  The steps involved in this would require more pages for user profiles, the ability to upload image files and user data.  I would probably use google firebase o0r similar for such an application.
+I would like to actually implement this as a working website.  The steps involved in this would require more pages for user profiles, the ability to upload image files and user data.  I would probably use  <a href="https://firebase.google.com/" target="_blank">Google Firebase</a> 0r similar for such an application.
 
 I would also have to run AI services in the background to process user images and data.
 
-I do feel that this is feasible and achieveable.
+I do feel that this is feasible and achieveable. Google firebase offers machine learning tools website use.
 
 If this website was built it would require a considerable amount of investment for a massive advertising blitz campaign.
 
 It would need to attract an enormous amount of of users very rapidly to ensure that there are enough users for the service to be of use and interest to singles.
 
-Firebase would be suitable for this as it can spin up new servers very quickly and handle large amount of simultaneous requests.
+<a href="https://firebase.google.com/" target="_blank">Google Firebase</a> would be suitable for this as it can spin up new servers very quickly and handle large amount of simultaneous requests.
 
 
 
