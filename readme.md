@@ -26,6 +26,33 @@ I have deliberately chosen a simple minimal style as I believe this conveys the 
 
 Here is the link to the live site.  https://rod-vadar.github.io/assignment1/index.html
 
+# **Wireframe**
+For the wireframe I used photoshop to create a placeholder layout for images and text.
+
+## Header ##
+
+![Alt text](new-wireframe/wire1.png)
+
+## Features ##
+
+![Alt text](new-wireframe/wire2.png)
+
+## Pricing ##
+
+![Alt text](new-wireframe/wire3.png)
+
+## Discover ##
+
+![Alt text](new-wireframe/wire4.png)
+
+## Footer ##
+
+![Alt text](new-wireframe/wire5.png)
+
+## Sign up page ##
+
+![Alt text](new-wireframe/wire6.png)
+
 ### **Color Space**
 The color space is based on a minimalist color space which suits the design of looking like the cover of a stylish magazine. I prefer to understate text intensity and keep it balanced with the images.
 I chose the colors of red #DC3545, white #FFFFFF, black #000000 and gray shades.
@@ -84,7 +111,7 @@ The final section is the footer which contains external links to common social m
 The only other page is the actual sign up page.  This contains an image and a sign up form.
 
 ### **Wireframe**
-For the wireframe I simply used pen and paper to sketch a rough outline.  I find this is sufficient as I also use this approach for other design such as 2d and 3d graphics and cgi.
+For the wireframe I simply used pen and paper to sketch a rough outline and then used photoshop to make a simple placeholder layout for images and text.
 
 ### **Images**
 I downloaded all images from the website www.pexels.com.  These are royalty free. I spent many hours searching thousands of images to choose the correct ones.  I chose images which I feel are pleasing to the user and really help to sell the website and get people to sign up.

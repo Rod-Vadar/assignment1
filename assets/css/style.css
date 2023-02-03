@@ -17,6 +17,39 @@ body {
   
 }
 
+.logo {
+  width: 240px;
+}
+
+.hero-image {
+  height: 400px;
+  width: 100%;
+  object-fit:cover;
+  object-position: 100% 0%;
+}
+
+.features-desktop-image {
+  height: 800px;
+  width: 75%;
+  object-fit:cover;
+  object-position: 100% 0%;
+}
+
+.discover-image {
+  height: 700px;
+  width: 100%;
+  object-fit:cover;
+  object-position: 80% 85%;
+}
+
+.signup-image {
+  height: 750px;
+  width: 100%;
+  object-fit:cover;
+  object-position: 100% 0%;
+}
+
+/* css below overlays text "Start your love story" on pricing image */
 .image-container {
     position: relative;
   }
